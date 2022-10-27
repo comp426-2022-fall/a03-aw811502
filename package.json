@@ -1,0 +1,27 @@
+{
+  "name": "a03-aw811502",
+  "version": "1.0.0",
+  "description": "Installable module and CLI",
+  "main": "./lib/roll.js",
+  "scripts": {
+    "test": "node ./bin/cli.js --sides=10 --dice=2 --rolls=3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a03-aw811502.git"
+  },
+  "author": "aw811502",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a03-aw811502/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a03-aw811502#readme",
+  "bin": {
+    "roll-dice": "./bin/cli.js"
+  },
+  "dependencies": {
+    "mathjs": "^11.3.2",
+    "minimist": "^1.2.7"
+  },
+  "type": "module"
+}

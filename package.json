@@ -1,5 +1,5 @@
 {
-  "name": "a03-aw811502",
+  "name": "node-dice",
   "version": "1.0.0",
   "description": "Installable module and CLI",
   "main": "./lib/roll.js",

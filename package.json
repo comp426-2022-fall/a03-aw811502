@@ -17,11 +17,15 @@
   },
   "homepage": "https://github.com/comp426-2022-fall/a03-aw811502#readme",
   "bin": {
-    "roll-dice": "./bin/cli.js"
+    "roll-dice": "bin/cli.js"
   },
   "dependencies": {
     "mathjs": "^11.3.2",
     "minimist": "^1.2.7"
   },
-  "type": "module"
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
 }

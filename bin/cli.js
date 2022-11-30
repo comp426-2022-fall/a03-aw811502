@@ -8,9 +8,6 @@ const args = parseArgs(process.argv.slice(2));
 const sides = args.sides;
 const dice = args.dice;
 const rolls = args.rolls;
-
-const roll_list = roll(sides, dice, rolls);
-
-const output = { "sides":sides, "dice":dice, "rolls":rolls, "results":roll_list};
+const output = roll(sides, dice, rolls);
 
 console.log(JSON.stringify(output));
